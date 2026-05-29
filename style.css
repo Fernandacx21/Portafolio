@@ -98,9 +98,33 @@ nav a{
 }
 
 .cv-btn{
-  background:#ecdfff;
+
+  background:linear-gradient(
+    90deg,
+    #ecdfff,
+    #ffd7eb
+  );
+
   padding:14px 24px;
+
   border-radius:16px;
+
+  text-decoration:none;
+
+  transition:.4s ease;
+
+  box-shadow:
+  0 10px 25px rgba(255,145,194,.15);
+}
+
+.cv-btn:hover{
+
+  transform:
+  translateY(-5px)
+  scale(1.03);
+
+  box-shadow:
+  0 20px 40px rgba(255,145,194,.25);
 }
 
 .hero{
@@ -555,6 +579,13 @@ section{
   justify-content:center;
   align-items:center;
 }
+.contact-image img{
+  width: 100%; 
+  max-width: 300px; 
+  height: auto;
+  border-radius:35px;
+}
+
 .input-group{
   display:flex;
   gap:15px;
@@ -684,5 +715,105 @@ section{
 
 }
 
+/*DARK MODE*/
+/* BOTON DARK MODE */
 
+#theme-toggle{
+
+  width:55px;
+  height:55px;
+
+  border:none;
+
+  border-radius:50%;
+
+  background:white;
+
+  font-size:1.3rem;
+
+  cursor:pointer;
+
+  transition:.4s ease;
+
+  box-shadow:
+  0 10px 25px rgba(0,0,0,.08);
+}
+
+#theme-toggle:hover{
+
+  transform:
+  translateY(-5px)
+  scale(1.05);
+
+  background:#ff8fbc;
+}
+/* DARK MODE */
+
+body.dark{
+
+  background:#151218;
+  color:#f7ddeb;
+}
+
+/* NAV */
+
+body.dark nav{
+
+  background:rgba(20,20,20,.4);
+}
+
+/* CARDS */
+
+body.dark .about-text,
+body.dark .project-card,
+body.dark .contact-info,
+body.dark form,
+body.dark .skill{
+
+  background:#211b24;
+
+  color:#f7ddeb;
+}
+
+/* INPUTS */
+
+body.dark input,
+body.dark textarea{
+
+  background:#2c2430;
+
+  color:white;
+}
+
+/* TAGS */
+
+body.dark .tags span{
+
+  background:#3b2f40;
+}
+
+/* BUTTONS */
+
+body.dark .secondary-btn{
+
+  background:#2c2430;
+
+  border:none;
+
+  color:white;
+}
+
+/* FOOTER */
+
+body.dark footer{
+
+  background:#1c1620;
+}
+
+/* MINI CARDS */
+
+body.dark .card-mini{
+
+  background:#2c2430;
+}
 
