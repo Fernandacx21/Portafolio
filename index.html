@@ -18,6 +18,16 @@
 </head>
 
 <body>
+  <div id="loader">
+
+  <div class="dots-loader">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+
+</div>
+
    <div class="bg1"></div>
   <div class="bg2"></div>
 
@@ -92,15 +102,10 @@
         <a href="https://github.com/Fernandacx21" target="_blank">
     <i class="fa-brands fa-github"></i>
   </a>
-        <a href="https://instagram.com" target="_blank">
-          <i class="fa-brands fa-instagram"></i>
-        </a>
         <a href="https://www.linkedin.com/in/maria-fernanda-gonz%C3%A1lez-ram%C3%ADrez-156241218/" target="_blank">
           <i class="fa-brands fa-linkedin"></i>
         </a>
-        <a href="https://twitter.com" target="_blank">
-          <i class="fa-brands fa-twitter"></i>
-        </a>
+
       </div>
 
     </div>
@@ -160,11 +165,6 @@
           <div class="card-mini">
             <h4>💗 Freelance</h4>
             <span>Disponible</span>
-          </div>
-
-          <div class="card-mini">
-            <h4>⭐ Experiencia</h4>
-            <span>2+ años</span>
           </div>
 
         </div>
@@ -281,48 +281,67 @@
     <div class="projects-grid">
 
 
+<div class="project-card" data-aos="fade-up">
+  <img src="img/Portafolio.png" alt="Proyecto">
+  <div class="project-info">
+
+    <h3>✨ Portafolio personal</h3>
+    <p>
+      Un portafolio creado para compartir los proyectos que he desarrollado, 
+      las tecnologías que utilizo y mi crecimiento como desarrolladora frontend. 
+      Diseñado con mucho cariño, detalles visuales y enfoque en la experiencia del usuario.
+    </p>
+    <div class="tags">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+    </div>
+    <div class="project-links">
+ <a href="https://portafolio-fernanda.netlify.app/" target="_blank"
+  rel="noopener noreferrer" class="demo-btn">
+  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+  Demo
+</a>
+
+<a href="https://github.com/Fernandacx21/Portafolio" target="_blank" rel="noopener noreferrer" class="github-btn">
+  <i class="fa-brands fa-github"></i>
+  GitHub
+</a>
+    </div>
+  </div>
+</div>
+
       <div class="project-card" data-aos="fade-up">
 
-        <img src="img/project1.jpg" alt="">
+        <img src="img/ICCASA.png" alt="">
 
         <div class="project-info">
 
-          <h3>App de tareas ⭐</h3>
+          <h3>🌸 Landing Page ICCASA </h3>
 
           <p>
-            Aplicación para gestionar tareas diarias
-            de forma bonita y funcional.
+           Prototipo funcional de landing page desarrollado para ICCASA Constructora, 
+           con enfoque en diseño responsivo, experiencia de usuario y rendimiento.
           </p>
 
           <div class="tags">
             <span>Angular</span>
-            <span>TypeScript</span>
-            <span>SASS</span>
-          </div>
-
-        </div>
-
-      </div>
-
-      <div class="project-card" data-aos="fade-up">
-
-        <img src="img/project2.jpg" alt="">
-
-        <div class="project-info">
-
-          <h3>Sitio Web Café 💗</h3>
-
-          <p>
-            Sitio responsive para cafetería
-            con diseño kawaii.
-          </p>
-
-          <div class="tags">
             <span>HTML</span>
             <span>CSS</span>
-            <span>JavaScript</span>
+            <span>TypeScript</span>
+            <span>Bootstrap</span>
           </div>
-
+    <div class="project-links">
+ <a href="https://agent-6a0b5f54b59f1418726cac97--iccasa.netlify.app/" target="_blank"
+  rel="noopener noreferrer" class="demo-btn">
+  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+  Demo
+</a>
+<a href="https://github.com/Fernandacx21/ICCASA-Constructora" target="_blank" rel="noopener noreferrer" class="github-btn">
+  <i class="fa-brands fa-github"></i>
+  GitHub
+</a>
+    </div>
         </div>
 
       </div>
@@ -368,7 +387,7 @@
 
       <div class="contact-box">
         <i class="fas fa-envelope"></i>
-        <span>fernanda@email.com</span>
+        <span>fernandaglezrmz21@gmail.com</span>
       </div>
 
       <div class="contact-box">
@@ -378,7 +397,7 @@
 
       <div class="contact-box">
         <i class="fas fa-heart"></i>
-        <span>Disponible para freelance</span>
+        <span>Disponibilidad inmediata</span>
       </div>
 
     </div>
@@ -432,95 +451,11 @@
 
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
-<script>
-  AOS.init({
-    duration:1200,
-    once:true
-  });
-</script>
 
-<script>
-
-const toggle = document.getElementById('theme-toggle');
-
-toggle.addEventListener('click', () => {
-
-  document.body.classList.toggle('dark');
-
-  if(document.body.classList.contains('dark')){
-
-    toggle.innerHTML = '☀️';
-
-  }else{
-
-    toggle.innerHTML = '🌙';
-
-  }
-
-});
-
-</script>
-
-<script>
-
-document
-.getElementById('downloadCV')
-.addEventListener('click', function(e){
-
-    e.preventDefault();
-
-    const link = document.createElement('a');
-
-    link.href = 'cv/CV Maria Fernanda González Ramírez.pdf';
-
-    link.download = 'CV Maria Fernanda González Ramírez.pdf';
-
-    document.body.appendChild(link);
-
-    link.click();
-
-    document.body.removeChild(link);
-
-});
-
-</script>
-<script>
-
-const menuToggle = document.querySelector('.menu-toggle');
-const navLinks = document.querySelector('.nav-links');
-
-menuToggle.addEventListener('click', () => {
-
-  navLinks.classList.toggle('active');
-
-  if(navLinks.classList.contains('active')){
-    menuToggle.innerHTML = '✕';
-  }else{
-    menuToggle.innerHTML = '☰';
-  }
-
-});
-
-</script>
-<script>
-
-window.addEventListener('scroll', () => {
-
-  const nav = document.querySelector('nav');
-
-  if(window.scrollY > 50){
-
-    nav.classList.add('scrolled');
-
-  }else{
-
-    nav.classList.remove('scrolled');
-
-  }
-
-});
-
-</script>
+<script src="js/main.js"></script>
+<script src="js/cv.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/nav.js"></script>
 
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
