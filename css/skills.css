@@ -1,0 +1,125 @@
+/*==========================================
+                SKILLS
+==========================================*/
+
+.skills{
+
+    padding:120px 10%;
+
+}
+
+/*==========================================
+            CONTENEDOR
+==========================================*/
+
+.skills-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+}
+
+/*==========================================
+            TARJETAS
+==========================================*/
+
+.skill{
+
+    background:#fff7fa;
+
+    border-radius:25px;
+
+    padding:30px 20px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:18px;
+
+    min-height:170px;
+
+    text-align:center;
+
+    transition:.35s ease;
+
+    cursor:default;
+
+    box-shadow:
+        0 10px 25px rgba(0,0,0,.05);
+
+}
+
+/*==========================================
+            ICONO
+==========================================*/
+
+.skill img{
+
+    width:60px;
+
+    height:60px;
+
+    object-fit:contain;
+
+    transition:.35s ease;
+
+}
+
+/*==========================================
+            TEXTO
+==========================================*/
+
+.skill span{
+
+    font-size:1rem;
+
+    font-weight:600;
+
+    color:#5c4b5f;
+
+}
+
+/*==========================================
+            HOVER
+==========================================*/
+
+.skill:hover{
+
+    transform:
+        translateY(-10px)
+        scale(1.03);
+
+    background:#ffe8f2;
+
+    box-shadow:
+        0 20px 40px rgba(255,145,194,.22);
+
+}
+
+.skill:hover img{
+
+    transform:
+        scale(1.12)
+        rotate(5deg);
+
+}
+
+/*==========================================
+        EFECTO ICONO
+==========================================*/
+
+.skill img{
+
+    user-select:none;
+
+    pointer-events:none;
+
+}

@@ -1,0 +1,73 @@
+/*==========================================
+            DARK MODE
+==========================================*/
+
+body.dark{
+
+    background:#18171c;
+
+    color:#f5edf3;
+
+}
+
+/*==========================================
+            CARDS
+==========================================*/
+
+body.dark .skill,
+
+body.dark .project-card,
+
+body.dark .contact-form,
+
+body.dark .info-card{
+
+    background:#23222a;
+
+}
+
+body.dark nav{
+
+    background:rgba(28,28,32,.65);
+
+}
+
+body.dark footer{
+
+    background:#1d1c22;
+
+}
+
+body.dark input,
+
+body.dark textarea{
+
+    background:#2c2b34;
+
+    color:white;
+
+}
+
+body.dark .secondary-btn{
+
+    background:#25242b;
+
+    color:white;
+
+}
+
+body.dark .socials a{
+
+    background:#2a2931;
+
+    color:#ff91c2;
+
+}
+
+body.dark .socials a:hover{
+
+    background:#ff91c2;
+
+    color:white;
+
+}
