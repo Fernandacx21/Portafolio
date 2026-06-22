@@ -925,11 +925,27 @@ body.dark .card-mini {
     display: flex;
   }
 
+  .contact{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+    gap: 25px;
+  }
+
   .contact-info,
   .contact-form {
-    padding: 30px;
-    width: 100%; 
-    box-sizing: border-box; 
+    padding: 25px 20px;
+    width: 100% !important; 
+    max-width: 100%;
+    box-sizing: border-box !important; 
+  }
+
+  .contact-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 12px;
   }
 }
 
