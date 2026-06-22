@@ -947,6 +947,27 @@ body.dark .card-mini {
     align-items: center;
     gap: 12px;
   }
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .input-box {
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  .input-box input,
+  .input-box textarea,
+  .contact-form input,
+  .contact-form textarea {
+    width: 100% !important;
+    max-width: 100%;
+    box-sizing: border-box !important;
+  }
 }
 
 /* Smarthpones pequeños */
