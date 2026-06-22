@@ -529,12 +529,12 @@ nav ul li a:hover::after {
 .input-box label {
   margin-bottom: 12px;
   font-weight: 600;
-  color: #8b5d7a;
+  color: #a3678d;
 }
 
 .input-box input, 
 .input-box textarea {
-  background: rgba(255, 255, 255, .7);
+  background: rgba(218, 218, 218, 0.253);
   outline: none;
   padding: 20px;
   border-radius: 20px;
@@ -777,11 +777,29 @@ body.dark #projects .section-title h2 {
   color: #ffffff; 
 }
 
-
-
 body.dark .card-mini {
   background: #211b24;
 }
+
+body.dark .contact-box i {
+  color:#5c4b5f;
+}
+
+body.dark .contact-form label,
+body.dark .contact-info h3{
+  color: #ffffff;
+}
+
+body.dark .contact-form input,
+body.dark .contact-form textarea {
+  color: #ffffff;
+}
+
+body.dark .contact-form input::placeholder,
+body.dark .contact-form textarea::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 
 
 /* Diseños responsivos */
