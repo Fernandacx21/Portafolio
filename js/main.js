@@ -5,12 +5,25 @@ toggle.addEventListener('click', () => {
 
   document.body.classList.toggle('dark');
 
-  if(document.body.classList.contains('dark')){
-    toggle.innerHTML = '☀️';
+  const themeIcon = toggle.querySelector('i');
 
-  }else{
-    toggle.innerHTML = '🌙';
+  if (document.body.classList.contains('dark')) {
+    if (themeIcon) {
+      themeIcon.className = 'fas fa-sun';
+    }
+    
+    if (emailIcon) {
+      emailIcon.style.color = '#ff8fbc'; 
+    }
 
+  } else {
+    if (themeIcon) {
+      themeIcon.className = 'fas fa-moon';
+    }
+  
+    if (emailIcon) {
+      emailIcon.style.color = ''; 
+    }
   }
 
 });

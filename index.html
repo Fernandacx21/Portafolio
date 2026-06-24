@@ -11,10 +11,11 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 
 </head>
@@ -43,8 +44,8 @@
     <ul class="nav-links">
       <li><a href="#">Inicio</a></li>
       <li><a href="#about">Sobre mí</a></li>
-      <li><a href="#projects">Proyectos</a></li>
       <li><a href="#skills">Habilidades</a></li>
+      <li><a href="#projects">Proyectos</a></li>
       <li><a href="#contact">Contacto</a></li>
     </ul>
 
@@ -53,7 +54,7 @@
   <i class="fa-solid fa-bars"></i>
     </div>
   <button id="theme-toggle">
-    🌙
+    <i class="fas fa-moon"></i>
   </button>
   </div>  
 
@@ -73,7 +74,7 @@
     <div class="hero-text" data-aos="fade-right">
 
       <span class="mini-tag">
-        ✨ ¡Hola! Soy Fernanda
+       <i class="fa fa-code"></i> ¡Hola! Soy Fernanda
       </span>
 
       <h1>
@@ -81,19 +82,21 @@
         <span>Frontend</span>
       </h1>
 
+      <span class="text-underline">
        <p>
         Creo experiencias web bonitas, funcionales
-        y hechas con mucho amor 💗
+        y hechas con mucho amor <i class="fa fa-heart"></i>
       </p>
+      </span>
 
       <div class="hero-buttons">
 
         <a href="#projects" class="primary-btn">
-          Ver proyectos ⭐
+          Ver proyectos <i class="fa fa-star"></i>
         </a>
 
         <a href="#contact" class="secondary-btn">
-          Contáctame 💌
+          Contáctame <i class="fas fa-envelope"></i>
         </a>
    
     <a href="cv/CV Maria Fernanda González Ramírez.pdf" class="cv-btn" id="downloadCV">
@@ -116,7 +119,6 @@
 
 
     <div class="hero-image" data-aos="fade-left">
-      <!--img src="img/girl.png" alt="girl"-->
       <img src="img/girl.png" alt="girl">
     </div>
 
@@ -127,9 +129,15 @@
 
   <section class="about" id="about">
 
-    <div class="section-title">
-      <h2>🌸 Sobre mí</h2>
-    </div>
+ <div class="section-title">
+  <h2>
+    <span class="custom-profile-icon">
+      <i class="fas fa-user"></i>
+      <i class="fas fa-heart internal-heart"></i>
+    </span> 
+    Sobre mí
+  </h2>
+</div>
 
 
     <div class="about-container">
@@ -156,18 +164,18 @@
         <p> 
           Actualmente continúo fortaleciendo mis habilidades en tecnologías frontend y 
           herramientas de desarrollo, siempre con la motivación de crecer profesionalmente, 
-          aportar valor y enfrentar nuevos desafíos en el mundo tecnológico. ✨
+          aportar valor y enfrentar nuevos desafíos en el mundo tecnológico. 
         </p>
 
         <div class="about-cards">
 
           <div class="card-mini">
-            <h4>📍 Ubicación</h4>
+            <h4><i class="fa fa-map-marker"></i> Ubicación</h4>
             <span>México</span>
           </div>
 
           <div class="card-mini">
-            <h4>💗 Freelance</h4>
+            <h4><i class="fa fa-heart"></i> Freelance</h4>
             <span>Disponible</span>
           </div>
 
@@ -184,7 +192,7 @@
   <section class="skills" id="skills">
 
     <div class="section-title">
-      <h2>💻 Lenguajes, tecnologias y herramientas 💻</h2>
+      <h2><i class="fas fa-laptop-code"></i> Lenguajes, tecnologías y herramientas <i class="fas fa-laptop-code"></i></h2>
     </div>
 
 
@@ -278,7 +286,7 @@
   <section class="projects" id="projects">
 
     <div class="section-title">
-      <h2>🌸 Mis proyectos</h2>
+      <h2><i class="fas fa-seedling"></i> Mis proyectos</h2>
     </div>
 
 
@@ -289,7 +297,7 @@
   <img src="img/Portafolio.png" alt="Proyecto">
   <div class="project-info">
 
-    <h3>✨ Portafolio personal</h3>
+    <h3><i class="fa fa-star"></i> Portafolio personal</h3>
     <p>
       Un portafolio creado para compartir los proyectos que he desarrollado, 
       las tecnologías que utilizo y mi crecimiento como desarrolladora frontend. 
@@ -321,7 +329,7 @@
 
         <div class="project-info">
 
-          <h3>🌸 Landing Page ICCASA </h3>
+          <h3><i class="fa fa-heart"></i> Landing Page ICCASA </h3>
 
           <p>
            Prototipo funcional de landing page desarrollado para ICCASA Constructora, 
@@ -381,12 +389,15 @@
   <section class="contact" id="contact">
 
     <div class="contact-info" data-aos="fade-right">
-
-      <h2>💌 Contacto</h2>
+      <h2>
+    <span class="custom-heart-icon">
+      <i class="bi bi-envelope-heart-fill"></i>
+    </span> 
+        Contacto
+      </h2>
 
       <p>
-        ¿Tienes un proyecto en mente?
-        ¡Hablemos! ✨
+        ¿Tienes un proyecto en mente? ¡Hablemos!<i class="bi bi-stars"></i>
       </p>
 
       <div class="contact-box">
@@ -411,30 +422,30 @@
   <div class="form-top">
 
     <div class="input-box">
-      <label>Tu nombre ✨</label>
+      <label>Tu nombre </label>
       <input type="text" name="user_name" placeholder="Nombre" required>
     </div>
 
     <div class="input-box">
-      <label>Tu correo 💌</label>
+      <label>Tu correo </i></label>
       <input type="email" name="user_email" placeholder="correo@email.com" required>
     </div>
 
   </div>
 
   <div class="input-box">
-    <label>Asunto 🌸</label>
+    <label>Asunto </i></label>
     <input type="text" name="subject" placeholder="Hablemos de un proyecto" required>
   </div>
 
   <div class="input-box">
-    <label>Mensaje 💗</label>
+    <label>Mensaje </label>
 
     <textarea name="message" placeholder="Escribe aquí tu mensaje bonito..." required></textarea>
   </div>
 
   <button class="send-btn">
-    ✨ Enviar mensaje
+    Enviar mensaje
   </button>
 
 </form>
