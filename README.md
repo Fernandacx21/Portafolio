@@ -1,2 +1,2 @@
 # Portafolio
-# PTecnologias utilizadas
+# Tecnologias utilizadas
