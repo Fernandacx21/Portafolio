@@ -34,7 +34,7 @@
    <div class="bg1"></div>
   <div class="bg2"></div>
 
-  <!-- NAVBAR -->
+  <!-- Navbar -->
   <nav>
     <a href="#" class="logo">
         <img src="img/LogoMF.png" alt="Logo">
@@ -116,8 +116,6 @@
       </div>
 
     </div>
-
-
     <div class="hero-image" data-aos="fade-left">
       <img src="img/girl.png" alt="girl">
     </div>
@@ -125,8 +123,7 @@
   </section>
 
 
-  <!-- ABOUT -->
-
+  <!-- Sobre mi -->
   <section class="about" id="about">
 
  <div class="section-title">
@@ -187,14 +184,11 @@
 
   </section>
 
-  <!-- SKILLS -->
-
+  <!-- Skills -->
   <section class="skills" id="skills">
-
     <div class="section-title">
       <h2><i class="fas fa-laptop-code"></i> Lenguajes, tecnologías y herramientas <i class="fas fa-laptop-code"></i></h2>
     </div>
-
 
     <div class="skills-grid">
 
@@ -281,17 +275,15 @@
 </div>
 
   </section>
-   <!-- PROJECTS -->
+   <!-- Proyectos -->
 
   <section class="projects" id="projects">
-
     <div class="section-title">
       <h2><i class="fas fa-seedling"></i> Mis proyectos</h2>
     </div>
 
 
     <div class="projects-grid">
-
 
 <div class="project-card" data-aos="fade-up">
   <img src="img/Portafolio.png" alt="Proyecto">
@@ -357,35 +349,59 @@
         </div>
 
       </div>
-       <div class="project-card" data-aos="fade-up">
+      <div class="project-card" data-aos="fade-up">
 
-        <img src="img/project3.jpg" alt="">
+  <div class="project-carousel">
+    <div class="carousel-track">
+      <img src="img/Trulinux.png" alt="Pantalla Principal" class="carousel-slide active">
+      <img src="img/dashboardTrulinux.png" alt="Dashboard" class="carousel-slide">
+      <img src="img/ticketTrulinux.png" alt="Creación de Ticket" class="carousel-slide">
+      <img src="img/clienteTrulinux.png" alt="Clientes" class="carousel-slide">
+    </div>
+    
+    <button class="carousel-btn prev-btn" aria-label="Anterior">&#10094;</button>
+    <button class="carousel-btn next-btn" aria-label="Siguiente">&#10095;</button>
+    
+    <div class="carousel-dots">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </div>
+  <div class="project-info">
+    <h3><i class="fa fa-star"></i> Sistema de tickets de soporte</h3>
+    <p>
+      Plataforma para registrar, asignar y dar seguimiento a solicitudes de soporte técnico, 
+      desarrollada de forma colaborativa en la universidad.
+    </p>
 
-        <div class="project-info">
+    <div class="tags">
+      <span>Angular</span>
+      <span>HTML</span>
+      <span>SCSS</span>
+      <span>TypeScript</span>
+      <span>JavaScript</span>
+      <span>Node.js</span>
+      <span>MySQL</span>
+    </div>
 
-          <h3>Portafolio v1 ✨</h3>
-
-          <p>
-            Mi primer portafolio personal
-            hecho con mucho amor.
-          </p>
-
-          <div class="tags">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-          </div>
-
-        </div>
-
-      </div>
-
-
+    <div class="project-links">
+      <div class="demo-btn no-demo" data-tooltip="No disponible">
+      <i class="fa-solid fa-arrow-up-right-from-square"></i>
+      Demo
+    </div>
+      <a href="https://github.com/Fernandacx21/Sistema-de-tickets-soporte" target="_blank" rel="noopener noreferrer" class="github-btn">
+        <i class="fa-brands fa-github"></i> GitHub
+      </a>
+    </div>
+  </div>
+</div>
     </div>
 
   </section>
-    <!-- CONTACT -->
 
+    <!-- Contacto -->
   <section class="contact" id="contact">
 
     <div class="contact-info" data-aos="fade-right">
@@ -458,7 +474,7 @@
   </section>
 
 
-  <!-- FOOTER -->
+  <!-- Footer -->
   <section class="footer" id="footer">
     Hecho con 💗 por Fernanda · 2026
   </section>
@@ -478,6 +494,7 @@ emailjs.init("LIoVd1DvLYig8RuNc");
 </script>
 
 <script src="js/contact.js"></script>
+<script src="js/carrusel.js"></script>
 
 <div id="toast" class="toast">
   💌 ¡Mensaje enviado correctamente!
