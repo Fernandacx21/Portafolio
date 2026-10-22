@@ -24,7 +24,7 @@ form.addEventListener("submit", function(e){
     })
     .catch(error => {
 
-        alert("❌ Error al enviar");
+        alert("Error al enviar. Inténtalo de nuevo.");
 
         console.error(error);
 

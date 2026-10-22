@@ -4,500 +4,187 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="img/LogoMF.png">
-  <title>Portafolio - Fernanda</title>
-
+  <title>Fernanda · Portafolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
-
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-
-
+  <noscript><style>.win{opacity:1}#boot{display:none}</style></noscript>
 </head>
-
 <body>
-  <div id="loader">
 
-  <div class="dots-loader">
-    <span></span>
-    <span></span>
-    <span></span>
+  <div class="kawaii-window">
+    
+    <div class="kawaii-header" aria-hidden="true">
+      <div class="kawaii-buttons">
+        <span class="btn-k btn-min"></span>
+        <span class="btn-k btn-max"></span>
+        <span class="btn-k btn-close"></span>
+      </div>
+    </div>
+
+    <div class="kawaii-browser-bar" aria-hidden="true">
+      <div class="browser-nav-btns">
+        <button type="button" class="browser-btn" disabled><i class="fa-solid fa-arrow-left"></i></button>
+        <button type="button" class="browser-btn" disabled><i class="fa-solid fa-arrow-right"></i></button>
+        <button type="button" class="browser-btn" disabled><i class="fa-solid fa-rotate-right"></i></button>
+        <button type="button" class="browser-btn" disabled><i class="fa-solid fa-house"></i></button>
+      </div>
+      <div class="browser-url-input">
+        <i class="fa-solid fa-lock url-lock-icon"></i>
+        <span class="url-text">https://Portafolio-Fernanda.com</span>
+        <i class="fa-solid fa-star url-star-icon"></i>
+      </div>
+    </div>
+    <div class="kawaii-body">
+
+  <div id="boot">
+    <img src="img/LogoMF.png" alt="">
+    <p>Portafolio-Fernanda </p>
+    <div class="meter"><i></i></div>
+    <small>Cargando información...</small>
   </div>
 
-</div>
 
-   <div class="bg1"></div>
-  <div class="bg2"></div>
+  <main>
 
-  <!-- Navbar -->
-  <nav>
-    <a href="#" class="logo">
-        <img src="img/LogoMF.png" alt="Logo">
-        <span>Fernanda</span>
-    </a>
+    <article class="win" id="inicio" data-name="Bienvenida.exe" style="--c:var(--pink)">
+      <div class="body hero">
+        <div>
+          <h1>Hola, soy Fernanda<br><em>Desarrolladora frontend</em></h1>
+          <p>Creo experiencias web bonitas, funcionales y hechas con mucho amor.<i class="fa-solid fa-heart"></i></p>
+          <div class="row">
+            <a href="#proyectos" class="btn pink" data-go="proyectos">Ver proyectos</a>
+            <a href="#contacto" class="btn lav" data-go="contacto">Contáctame</a>
+            <a href="cv/CV Maria Fernanda González Ramírez.pdf" class="btn mint" id="downloadCV">Descargar CV</a>
+          </div>
+          <div class="row socials">
+            <a href="https://github.com/Fernandacx21" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/maria-fernanda-gonz%C3%A1lez-ram%C3%ADrez-156241218/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+        <img class="sticker" src="img/girl.png" alt="Ilustración">
+      </div>
+    </article>
 
-    <ul class="nav-links">
-      <li><a href="#">Inicio</a></li>
-      <li><a href="#about">Sobre mí</a></li>
-      <li><a href="#skills">Habilidades</a></li>
-      <li><a href="#projects">Proyectos</a></li>
-      <li><a href="#contact">Contacto</a></li>
-    </ul>
+    <article class="win" id="sobre-mi" data-name="Sobre mi.exe" style="--c:var(--lav)">
+      <div class="body about">
+        <img src="https://i.pinimg.com/736x/56/09/fd/5609fd9c483347bb3322957109b54af7.jpg" alt="Foto decorativa">
+        <div>
+          <p>Soy desarrolladora frontend apasionada por el diseño, la tecnología y las experiencias de usuario.</p>
+          <p>Me encuentro en una etapa inicial de mi trayectoria profesional,me caracterizo por mi iniciativa, pensamiento analítico y constante deseo de aprendizaje.</p>          
+          <p>Disfruto desarrollar soluciones eficientes, cuidar los detalles visuales y colaborar en equipo para construir aplicaciones innovadoras.</p>          
+          <p>Actualmente continúo y busco seguir fortaleciendo mis habilidades en tecnologías frontend y herramientas de desarrollo, siempre con la motivación de crecer profesionalmente, aportar valor y enfrentar nuevos desafíos en el mundo tecnológico. </p>
+          
+          <div class="row">
+            <span class="chip"><i class="fa-solid fa-location-dot"></i> México</span>
+            <span class="chip"><i class="fa-solid fa-heart"></i> Freelance disponible</span>
+          </div>
+        </div>
+      </div>
+    </article>
 
-      <div class="nav-actions">
-   <div class="menu-toggle">
-  <i class="fa-solid fa-bars"></i>
+    <article class="win" id="herramientas" data-name="Lenguajes, tecnologías y herramientas.exe" style="--c:var(--aqua)">
+      <div class="body"><div id="skills-grid"></div></div>
+      <div class="status" id="skills-count"></div>
+    </article>
+
+    <article class="win" id="proyectos" data-name="Proyectos.exe" style="--c:var(--lav)">
+      <div class="body"><div class="projects">
+      <article class="win" id="p1" data-name="Portafolio personal" style="--c:var(--pink)">
+        <img class="shot" src="img/Portafolio.png" alt="Captura del portafolio">
+        <div class="body">
+          <h3>Portafolio personal</h3>
+          <p>Mi espacio para compartir proyectos, tecnologías y mi crecimiento como desarrolladora frontend.</p>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <div class="row">
+            <a class="btn pink" href="https://portafolio-mfernanda.netlify.app/" target="_blank" rel="noopener">Demo</a>
+            <a class="btn" href="https://github.com/Fernandacx21/Portafolio" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="win" id="p2" data-name="Landing Page ICCASA" style="--c:var(--peach)">
+        <img class="shot" src="img/ICCASA.png" alt="Captura de la landing page de ICCASA">
+        <div class="body">
+          <h3>Landing page ICCASA</h3>
+          <p>Prototipo funcional para ICCASA Constructora, con enfoque en diseño responsivo, experiencia de usuario y rendimiento.</p>
+          <div class="tags"><span>Angular</span><span>HTML</span><span>CSS</span><span>TypeScript</span><span>Bootstrap</span></div>
+          <div class="row">
+            <a class="btn peach" href="https://iccasaconstructora.netlify.app/" target="_blank" rel="noopener">Demo</a>
+            <a class="btn" href="https://github.com/Fernandacx21/ICCASA---Constructora.git" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="win" id="p3" data-name="Sistema de tickets de soporte" style="--c:var(--mint)">
+        <div class="project-carousel">
+          <div class="carousel-track">
+            <img src="img/Trulinux.png" alt="Pantalla principal" class="carousel-slide active">
+            <img src="img/dashboardTrulinux.png" alt="Dashboard" class="carousel-slide">
+            <img src="img/ticketTrulinux.png" alt="Creación de ticket" class="carousel-slide">
+            <img src="img/clienteTrulinux.png" alt="Clientes" class="carousel-slide">
+          </div>
+          <button class="carousel-btn prev-btn" aria-label="Anterior"><i class="fa-solid fa-chevron-left"></i></button>
+          <button class="carousel-btn next-btn" aria-label="Siguiente"><i class="fa-solid fa-chevron-right"></i></button>
+          <div class="carousel-dots"><span class="dot active"></span><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+        </div>
+        <div class="body">
+          <h3>Sistema de tickets de soporte</h3>
+          <p>Plataforma para registrar, asignar y dar seguimiento a solicitudes de soporte técnico, desarrollada de forma colaborativa en la universidad.</p>
+          <div class="tags"><span>Angular</span><span>HTML</span><span>SCSS</span><span>JavaScript</span><span>TypeScript</span><span>Node.js</span><span>MySQL</span></div>
+          <div class="row">
+            <span class="btn off" title="No disponible">Demo no disponible</span>
+            <a class="btn" href="https://github.com/Fernandacx21/Sistema-de-tickets-soporte" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </article>
+      </div></div>
+    </article>
+
+    <article class="win" id="contacto" data-name="Mensajes.exe" style="--c:var(--butter)">
+      <div class="body contact">
+        <div>
+          <h2>¿Tienes un proyecto en mente? ¡Hablemos!</h2>
+          <p class="chip"><i class="fa-solid fa-envelope"></i> fernandaglezrmz21@gmail.com</p>
+          <p class="chip"><i class="fa-solid fa-location-dot"></i> México</p>
+          <p class="chip"><i class="fa-solid fa-bolt"></i> Disponibilidad inmediata</p>
+          <img class="room" src="img/room.png" alt="Cuarto ilustrado">
+        </div>
+        <form id="contact-form">
+          <label>Tu nombre<input type="text" name="user_name" placeholder="Nombre" required></label>
+          <label>Tu correo<input type="email" name="user_email" placeholder="correo@email.com" required></label>
+          <label>Asunto<input type="text" name="subject" placeholder="Hablemos de un proyecto" required></label>
+          <label>Mensaje<textarea name="message" placeholder="Escribe aquí tu mensaje bonito..." required></textarea></label>
+          <button class="btn pink" type="submit">Enviar mensaje</button>
+        </form>
+      </div>
+    </article>
+
+    <p class="foot">Hecho con <i class="fa-solid fa-heart"></i> por Fernanda · 2026</p>
+  </main>
+
     </div>
-  <button id="theme-toggle">
-    <i class="fas fa-moon"></i>
-  </button>
-  </div>  
+  </div>
 
+  <div id="hint" role="status"></div>
+  <div id="toast" class="toast"><i class="fa-solid fa-envelope-circle-check"></i> ¡Mensaje enviado correctamente!</div>
+
+  
+  <nav class="taskbar" aria-label="Barra de tareas">
+    <button id="start" class="btn pink" aria-haspopup="true"><i class="fa-solid fa-star"></i> Inicio</button>
+    <div id="tasks"></div>
+    <button id="theme-toggle" aria-label="Cambiar entre modo día y noche"><i class="fa-solid fa-moon"></i></button>
+    <time id="clock"></time>
+    <div id="menu" hidden></div>
   </nav>
 
-  <section class="hero">
-<div class="particles">
-
-  <span>🌸</span>
-  <span>✨</span>
-  <span>🌸</span>
-  <span>✨</span>
-  <span>🌸</span>
-  <span>✨</span>
-
-</div>
-    <div class="hero-text" data-aos="fade-right">
-
-      <span class="mini-tag">
-       <i class="fa fa-code"></i> ¡Hola! Soy Fernanda
-      </span>
-
-      <h1>
-        Desarrolladora <br>
-        <span>Frontend</span>
-      </h1>
-
-      <span class="text-underline">
-       <p>
-        Creo experiencias web bonitas, funcionales
-        y hechas con mucho amor <i class="fa fa-heart"></i>
-      </p>
-      </span>
-
-      <div class="hero-buttons">
-
-        <a href="#projects" class="primary-btn">
-          Ver proyectos <i class="fa fa-star"></i>
-        </a>
-
-        <a href="#contact" class="secondary-btn">
-          Contáctame <i class="fas fa-envelope"></i>
-        </a>
-   
-    <a href="cv/CV Maria Fernanda González Ramírez.pdf" class="cv-btn" id="downloadCV">
-      Descargar CV
-    </a>
-
-      </div>
-
-    <div class="socials">
-        <a href="https://github.com/Fernandacx21" target="_blank">
-    <i class="fa-brands fa-github"></i>
-  </a>
-        <a href="https://www.linkedin.com/in/maria-fernanda-gonz%C3%A1lez-ram%C3%ADrez-156241218/" target="_blank">
-          <i class="fa-brands fa-linkedin"></i>
-        </a>
-
-      </div>
-
-    </div>
-    <div class="hero-image" data-aos="fade-left">
-      <img src="img/girl.png" alt="girl">
-    </div>
-
-  </section>
-
-
-  <!-- Sobre mi -->
-  <section class="about" id="about">
-
- <div class="section-title">
-  <h2>
-    <span class="custom-profile-icon">
-      <i class="fas fa-user"></i>
-      <i class="fas fa-heart internal-heart"></i>
-    </span> 
-    Sobre mí
-  </h2>
-</div>
-
-
-    <div class="about-container">
-
-      <div class="about-image">
-        <img src="https://i.pinimg.com/736x/56/09/fd/5609fd9c483347bb3322957109b54af7.jpg" alt="about">
-      </div>
-
-      <div class="about-text">
-
-        <p>
-          Soy desarrolladora frontend apasionada por el diseño,
-          la tecnología y las experiencias de usuario.
-        </p>
-         <p>
-          Aunque me encuentro en una etapa inicial de mi trayectoria profesional, 
-          me caracterizo por mi iniciativa, pensamiento analítico y constante deseo 
-          de aprendizaje. 
-          </p>
-          <p>
-          Disfruto desarrollar soluciones eficientes, cuidar los detalles 
-          visuales y colaborar en equipo para construir aplicaciones innovadoras.
-        </p>
-        <p> 
-          Actualmente continúo fortaleciendo mis habilidades en tecnologías frontend y 
-          herramientas de desarrollo, siempre con la motivación de crecer profesionalmente, 
-          aportar valor y enfrentar nuevos desafíos en el mundo tecnológico. 
-        </p>
-
-        <div class="about-cards">
-
-          <div class="card-mini">
-            <h4><i class="fa fa-map-marker"></i> Ubicación</h4>
-            <span>México</span>
-          </div>
-
-          <div class="card-mini">
-            <h4><i class="fa fa-heart"></i> Freelance</h4>
-            <span>Disponible</span>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <!-- Skills -->
-  <section class="skills" id="skills">
-    <div class="section-title">
-      <h2><i class="fas fa-laptop-code"></i> Lenguajes, tecnologías y herramientas <i class="fas fa-laptop-code"></i></h2>
-    </div>
-
-    <div class="skills-grid">
-
-  <div class="skill" data-aos="fade-up">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
-    <span>HTML5</span>
-  </div>
-
-  <div class="skill" data-aos="fade-up">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
-    <span>CSS3</span>
-  </div>
-
-  <div class="skill" data-aos="fade-up">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP">
-    <span>PHP</span>
-  </div>
-
-  <div class="skill" data-aos="fade-up">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
-    <span>JavaScript</span>
-  </div>
-
-  <div class="skill" data-aos="fade-up">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
-    <span>Java</span>
-  </div>
-
-  <div class="skill" data-aos="fade-up">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="Angular">
-    <span>Angular</span>
-  </div>
-
-  <div class="skill" data-aos="fade-up">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" alt="NPM">
-    <span>NPM</span>
-  </div>
-
-  <div class="skill" data-aos="fade-up">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="NodeJS">
-    <span>Node.js</span>
-  </div>
-
-  <div class="skill" data-aos="fade-up">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
-    <span>MySQL</span>
-  </div>
-
-  <div class="skill" data-aos="fade-up">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap">
-    <span>Bootstrap</span>
-  </div>
-
-  <div class="skill" data-aos="fade-up">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma">
-    <span>Figma</span>
-  </div>
-
-  <div class="skill" data-aos="fade-up">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
-    <span>Git</span>
-  </div>
-
-  <div class="skill" data-aos="fade-up">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
-    <span>GitHub</span>
-  </div>
-
-  <div class="skill" data-aos="fade-up">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code">
-    <span>VS Code</span>
-  </div>
-
-  <div class="skill" data-aos="fade-up">
-    <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman">
-    <span>Postman</span>
-  </div>
-
-  <div class="skill" data-aos="fade-up">
-    <img src="img/canva.png" alt="Canva">
-    <span>Canva</span>
-  </div>
-
-</div>
-
-  </section>
-   <!-- Proyectos -->
-
-  <section class="projects" id="projects">
-    <div class="section-title">
-      <h2><i class="fas fa-seedling"></i> Mis proyectos</h2>
-    </div>
-
-
-    <div class="projects-grid">
-
-<div class="project-card" data-aos="fade-up">
-  <img src="img/Portafolio.png" alt="Proyecto">
-  <div class="project-info">
-
-    <h3><i class="fa fa-star"></i> Portafolio personal</h3>
-    <p>
-      Un portafolio creado para compartir los proyectos que he desarrollado, 
-      las tecnologías que utilizo y mi crecimiento como desarrolladora frontend. 
-      Diseñado con mucho cariño, detalles visuales y enfoque en la experiencia del usuario.
-    </p>
-    <div class="tags">
-      <span>HTML</span>
-      <span>CSS</span>
-      <span>JavaScript</span>
-    </div>
-    <div class="project-links">
- <a href="https://portafolio-fernanda.netlify.app/" target="_blank"
-  rel="noopener noreferrer" class="demo-btn">
-  <i class="fa-solid fa-arrow-up-right-from-square"></i>
-  Demo
-</a>
-
-<a href="https://github.com/Fernandacx21/Portafolio" target="_blank" rel="noopener noreferrer" class="github-btn">
-  <i class="fa-brands fa-github"></i>
-  GitHub
-</a>
-    </div>
-  </div>
-</div>
-
-      <div class="project-card" data-aos="fade-up">
-
-        <img src="img/ICCASA.png" alt="">
-
-        <div class="project-info">
-
-          <h3><i class="fa fa-heart"></i> Landing Page ICCASA </h3>
-
-          <p>
-           Prototipo funcional de landing page desarrollado para ICCASA Constructora, 
-           con enfoque en diseño responsivo, experiencia de usuario y rendimiento.
-          </p>
-
-          <div class="tags">
-            <span>Angular</span>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>TypeScript</span>
-            <span>Bootstrap</span>
-          </div>
-    <div class="project-links">
- <a href="https://iccasaconstructora.netlify.app/" target="_blank"
-  rel="noopener noreferrer" class="demo-btn">
-  <i class="fa-solid fa-arrow-up-right-from-square"></i>
-  Demo
-</a>
-<a href="https://github.com/Fernandacx21/ICCASA-Constructora" target="_blank" rel="noopener noreferrer" class="github-btn">
-  <i class="fa-brands fa-github"></i>
-  GitHub
-</a>
-    </div>
-        </div>
-
-      </div>
-      <div class="project-card" data-aos="fade-up">
-
-  <div class="project-carousel">
-    <div class="carousel-track">
-      <img src="img/Trulinux.png" alt="Pantalla Principal" class="carousel-slide active">
-      <img src="img/dashboardTrulinux.png" alt="Dashboard" class="carousel-slide">
-      <img src="img/ticketTrulinux.png" alt="Creación de Ticket" class="carousel-slide">
-      <img src="img/clienteTrulinux.png" alt="Clientes" class="carousel-slide">
-    </div>
-    
-    <button class="carousel-btn prev-btn" aria-label="Anterior">&#10094;</button>
-    <button class="carousel-btn next-btn" aria-label="Siguiente">&#10095;</button>
-    
-    <div class="carousel-dots">
-      <span class="dot active"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-    </div>
-  </div>
-  <div class="project-info">
-    <h3><i class="fa fa-star"></i> Sistema de tickets de soporte</h3>
-    <p>
-      Plataforma para registrar, asignar y dar seguimiento a solicitudes de soporte técnico, 
-      desarrollada de forma colaborativa en la universidad.
-    </p>
-
-    <div class="tags">
-      <span>Angular</span>
-      <span>HTML</span>
-      <span>SCSS</span>
-      <span>TypeScript</span>
-      <span>JavaScript</span>
-      <span>Node.js</span>
-      <span>MySQL</span>
-    </div>
-
-    <div class="project-links">
-      <div class="demo-btn no-demo" data-tooltip="No disponible">
-      <i class="fa-solid fa-arrow-up-right-from-square"></i>
-      Demo
-    </div>
-      <a href="https://github.com/Fernandacx21/Sistema-de-tickets-soporte" target="_blank" rel="noopener noreferrer" class="github-btn">
-        <i class="fa-brands fa-github"></i> GitHub
-      </a>
-    </div>
-  </div>
-</div>
-    </div>
-
-  </section>
-
-    <!-- Contacto -->
-  <section class="contact" id="contact">
-
-    <div class="contact-info" data-aos="fade-right">
-      <h2>
-    <span class="custom-heart-icon">
-      <i class="bi bi-envelope-heart-fill"></i>
-    </span> 
-        Contacto
-      </h2>
-
-      <p>
-        ¿Tienes un proyecto en mente? ¡Hablemos!<i class="bi bi-stars"></i>
-      </p>
-
-      <div class="contact-box">
-        <i class="fas fa-envelope"></i>
-        <span>fernandaglezrmz21@gmail.com</span>
-      </div>
-
-      <div class="contact-box">
-        <i class="fas fa-location-dot"></i>
-        <span>México</span>
-      </div>
-
-      <div class="contact-box">
-        <i class="fas fa-heart"></i>
-        <span>Disponibilidad inmediata</span>
-      </div>
-
-    </div>
-    
-    <form id ="contact-form" class="contact-form" data-aos="fade-up">
-
-  <div class="form-top">
-
-    <div class="input-box">
-      <label>Tu nombre </label>
-      <input type="text" name="user_name" placeholder="Nombre" required>
-    </div>
-
-    <div class="input-box">
-      <label>Tu correo </i></label>
-      <input type="email" name="user_email" placeholder="correo@email.com" required>
-    </div>
-
-  </div>
-
-  <div class="input-box">
-    <label>Asunto </i></label>
-    <input type="text" name="subject" placeholder="Hablemos de un proyecto" required>
-  </div>
-
-  <div class="input-box">
-    <label>Mensaje </label>
-
-    <textarea name="message" placeholder="Escribe aquí tu mensaje bonito..." required></textarea>
-  </div>
-
-  <button class="send-btn">
-    Enviar mensaje
-  </button>
-
-</form>
-
-
-    <div class="contact-image" data-aos="fade-left">
-      <img src="img/room2.jpg" alt="room">
-    </div>
-
-  </section>
-
-
-  <!-- Footer -->
-  <section class="footer" id="footer">
-    Hecho con 💗 por Fernanda · 2026
-  </section>
-
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-
-
-<script src="js/main.js"></script>
-<script src="js/cv.js"></script>
-<script src="js/menu.js"></script>
-<script src="js/nav.js"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-
-<script>
-emailjs.init("LIoVd1DvLYig8RuNc");
-</script>
-
-<script src="js/contact.js"></script>
-<script src="js/carrusel.js"></script>
-
-<div id="toast" class="toast">
-  💌 ¡Mensaje enviado correctamente!
-</div>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>emailjs.init("LIoVd1DvLYig8RuNc");</script>
+  <script src="js/cv.js"></script>
+  <script src="js/contact.js"></script>
+  <script src="js/carrusel.js"></script>
+  <script src="js/os.js"></script>
 </body>
-</html> 
+</html>
