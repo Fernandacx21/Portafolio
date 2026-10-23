@@ -1,6 +1,6 @@
 
 # Portafolio personal
-<img width="2000" height="1414" alt="Diseño sin título (3)" src="https://github.com/user-attachments/assets/f9647071-f900-4d26-8e8c-beb4b7ad9d6b" />
+<img width="2000" height="1414" alt="Image" src="https://github.com/user-attachments/assets/3b11a821-daa6-487b-b622-266b973b4dc5" />
 
 ---
 # Tecnologias utilizadas
